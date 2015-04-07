@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center">
+	
+    
+	<View 
+	    android:id="@+id/display" 
+		android:layout_width="fill_parent"
+		android:layout_height="0dp" 
+		android:layout_weight="1" 
+		android:gravity="center" 
+		android:textSize="25sp" 
+		android:height="250sp"
+	    android:background="@color/color_default"
+	/>
+	
+	
+	<LinearLayout
+		android:orientation="horizontal" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center">	
+	
+		<LinearLayout
+			android:orientation="vertical" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" >
+		    
+			<TextView 
+			    android:labelFor="@+id/input_red" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:gravity="center_vertical"
+				android:text="@string/label_red"
+			/>
+
+			<EditText
+			    android:id="@+id/input_red"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:background="@android:drawable/editbox_background"
+			    android:inputType="number"
+			    android:maxLength="3" >
+
+			    <requestFocus />
+			</EditText>
+			
+		</LinearLayout>
+		
+		
+		<LinearLayout
+			android:orientation="vertical" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:layout_marginLeft="50sp" >
+						
+				<TextView 
+				    android:labelFor="@+id/input_green" 
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					android:gravity="center_vertical"
+					android:text="@string/label_green"
+				/>
+			
+				<EditText 
+				    android:id="@+id/input_green" 
+				    android:inputType="number"
+			   	    android:maxLength="3"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					android:background="@android:drawable/editbox_background"
+				/>
+				
+		</LinearLayout>
+		
+		
+		<LinearLayout
+			android:orientation="vertical" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:layout_marginLeft="50sp" >
+				
+				<TextView 
+				    android:id="@+id/label_blue" 
+				    android:labelFor="@+id/input_blue" 
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content" 
+					android:gravity="center_vertical"
+					android:text="@string/label_blue"
+				/>
+			
+				<EditText 
+				    android:id="@+id/input_blue" 
+				    android:inputType="number"
+			   	    android:maxLength="3"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content" 
+					android:background="@android:drawable/editbox_background"
+				/>
+		</LinearLayout>
+	</LinearLayout>
+		
+		<LinearLayout 
+			android:orientation="horizontal" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center" >				
+				
+			<Button 
+			    android:id="@+id/button_setColor" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:text="@string/button_setColor" 
+				android:layout_gravity="center" 
+			/>
+	</LinearLayout>
+		
+</LinearLayout>

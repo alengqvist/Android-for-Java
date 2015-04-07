@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/add_country"
+        android:title="@string/action_add_country"
+        android:showAsAction="always"
+    />
+
+</menu>

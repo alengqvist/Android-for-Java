@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blackness" >
+
+    <ListView
+        android:id="@+id/music_playlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/music_currsongtext"
+        android:layout_alignParentTop="true" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/music_currsongtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/music_playpanel"
+        android:gravity="center"
+        android:padding="4sp"
+        android:text=""
+        android:textColor="@color/egg_white_text" />
+
+    <LinearLayout
+        android:id="@+id/music_playpanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/music_previous_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@null"
+            android:contentDescription="@string/previous_button_desc"
+            android:src="@drawable/ic_action_previous" />
+
+        <ImageButton
+            android:id="@+id/music_play_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@null"
+            android:contentDescription="@string/play_button_desc"
+            android:src="@drawable/ic_action_play" />
+
+        <ImageButton
+            android:id="@+id/music_next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@null"
+            android:contentDescription="@string/next_button_desc"
+            android:src="@drawable/ic_action_next" />
+    </LinearLayout>
+
+</RelativeLayout>

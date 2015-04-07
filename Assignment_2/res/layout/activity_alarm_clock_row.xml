@@ -1,0 +1,23 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+	android:padding="10dp"
+	android:background="@color/color_default">
+	
+    <TextView 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true" 
+        android:id="@+id/time"
+        android:textSize="20sp"
+    />
+
+    <TextView 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_alignParentRight="true" 
+        android:id="@+id/alarm_type"
+        android:textSize="16sp"
+    />
+</RelativeLayout>

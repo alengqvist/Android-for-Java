@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Assignment_3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="title_call_history_context">Number selections</string>
+    <string name="title_call">Call</string>
+    <string name="title_sms">Message</string>
+    <string name="share">Share</string>
+    <string name="callhistory_empty_list">No calls have been saved!</string>
+    
+    <string name="label_date">Date</string>
+    <string name="label_time">Time</string>
+    <string name="label_forecast">Forecast</string>
+    <string name="label_temperature">Temp.</string>
+    <string name="label_temperature_land">Temperature</string>
+    <string name="label_precipitation">Precipi.</string>
+    <string name="label_precipitation_land">Precipitation</string>
+    <string name="temp_unit">°C</string>
+    <string name="title_activity_weather">WeatherActivity</string>
+    <string name="widget_internet">No internet can be found!</string>
+    <string name="widget_updated">Updated!</string>
+    <string name="weather_widget_label">A Weather</string>
+    <string name="weather_config_label">Weather Config</string>
+    <string name="weather_empty_list">No forecasts available!</string>
+    <string name="weatherwidget">Weather</string>
+    <string name="weather_in">Weather in</string>    
+    <string name="weather_icon_desc">Forecast</string>
+</resources>

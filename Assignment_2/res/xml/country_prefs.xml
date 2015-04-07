@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<ListPreference
+	    android:defaultValue="@string/pref_country_background_dValue"
+	    android:entries="@array/country_background_colors_array"
+	    android:entryValues="@array/country_background_colors_array_values"
+	    android:key="@string/pref_country_background_key"
+	    android:summary="@string/pref_country_background_summary"
+	    android:title="@string/pref_country_background_title" 
+	/>
+	  
+	<ListPreference
+	    android:defaultValue="@string/pref_country_fontsize_dValue"
+	    android:entries="@array/country_fontsize_array"
+	    android:entryValues="@array/country_fontsize_array_values"
+	    android:key="@string/pref_country_fontsize_key"
+	    android:summary="@string/pref_country_fontsize_summary"
+	    android:title="@string/pref_country_fontsize_title" 
+	/>
+	
+	<ListPreference
+	    android:defaultValue="@string/pref_country_fontcolor_dValue"
+	    android:entries="@array/country_fontcolor_array"
+	    android:entryValues="@array/country_fontcolor_array_values"
+	    android:key="@string/pref_country_fontcolor_key"
+	    android:summary="@string/pref_country_fontcolor_summary"
+	    android:title="@string/pref_country_fontcolor_title" 
+	/>
+</PreferenceScreen>

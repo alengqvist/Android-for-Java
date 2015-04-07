@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_default">#D0D0D0</color>
+    <color name="weather_labels">#BDE1EF</color>
+    <color name="blackness">#1C1C1C</color>
+    <color name="white_text">#FFFFFF</color>
+    <color name="smoke">#303030</color>
+    <color name="menu_item_pressed">#4E4E4E</color>
+    <color name="menu_item_default">#121212</color>
+</resources>

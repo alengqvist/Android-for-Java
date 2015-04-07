@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="android.assignment_2.AlarmClock" >
+    <item
+        android:id="@+id/button_alarm_dismiss"
+        android:title="@string/button_alarm_dismiss"
+        android:showAsAction="always"
+    />
+</menu>

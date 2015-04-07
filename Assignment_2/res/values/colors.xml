@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_default">#99D0D0D0</color>
+    <color name="blackness">#1C1C1C</color>
+    <color name="white_text">#FFFFFF</color>
+    <color name="egg_white_text">#F1F1F1</color>
+    <color name="green_text">#226A39</color>
+    <color name="alarm_background">#98B5BD</color>
+    <color name="alarm_background_display">#C1D2D7</color>
+    <color name="menu_item_pressed">#BF4E4E4E</color>
+    <color name="menu_item_default">#BF121212</color>
+</resources>
+

@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="android.assignment_2.AlarmMaker" >
+    <item
+        android:id="@+id/save_country"
+        android:title="@string/action_save"
+        android:showAsAction="always"
+    />
+</menu>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.assignment_2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MyCountries"
+            android:label="@string/title_activity_my_countries" >
+        </activity>
+        <activity
+            android:name=".CountryMaker"
+            android:label="@string/title_activity_country_maker" >
+        </activity>
+        <activity
+            android:name=".CountryPreference"
+            android:label="@string/title_activity_country_preference" >
+        </activity>
+        <activity
+            android:name=".AlarmClock"
+            android:label="@string/title_activity_alarm_clock" >
+        </activity>
+        <activity
+            android:name=".AlarmMaker"
+            android:label="@string/title_activity_alarm_maker" >
+        </activity>
+
+        <receiver
+            android:name=".AlarmReceiver"
+            android:label="@string/title_alarm_receiver" >
+            <intent-filter>
+                <action android:name="android.assignment_2.ALARM_BROADCAST" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".AlarmNotifier"
+            android:label="@string/title_activity_alarm_notifier" >
+        </activity>
+        <activity
+            android:name=".MP3Player"
+            android:label="@string/title_activity_mp3_player" >
+        </activity>
+        
+        <service
+            android:name=".MusicService"
+            android:enabled="true" />
+    </application>
+
+</manifest>
