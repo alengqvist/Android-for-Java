@@ -1,8 +1,17 @@
-# Android för Javaprogrammerare spelprogrammering - VT2015
+# Android for Java Programmers - VT2015
 
-Här fick jag fortsätta fördjupa mig inom programspråket Java och lära mig att kombinera det med Android för att bygga
-hela mobilapplikationer.
+Android is a Operating System designed for "small" computer devices. The course gives
+and introduction to Android with special focus on the development of Android
+applications:
+- describe the specific properties of the Android Operating System
+- efficiently use the emulator that comes with the developement environment
+- develop userfriendly Android applications
+- describe the life cycle of different application types
+- setup a database that can be accessed from different applications
+- create and handle processes running in the background
+- develop GPS and Mapbased applications
+- develop highquality applications ready to be published
 
-Programmeringsspråk: <b>Java</b><br>
-Betygsskala: <b>A/B/C/D/E/F</b><br>
-Slutbetyg: <b>B</b>
+Programming language: <b>Java</b><br>
+Grading: <b>A/B/C/D/E/F</b><br>
+Final grade: <b>B</b>
